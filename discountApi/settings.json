@@ -1,0 +1,17 @@
+[
+    {
+        "name": "timer",
+        "hours": 20,
+        "minutes": 2,
+        "seconds": 60
+    },
+    {
+        "name": "discount",
+        "btnTitle": "Avail Discount",
+        "img": "assets/images/dis-modal.png"
+    },
+    {
+        "name": "allow",
+        "allow": "true"
+    }
+]

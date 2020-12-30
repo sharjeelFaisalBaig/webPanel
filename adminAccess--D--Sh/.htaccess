@@ -1,0 +1,39 @@
+RewriteEngine on
+
+ErrorDocument 404 http://localhost/website-crm/git/crm
+
+RewriteRule ^index.html?$ index.php
+RewriteRule ^panel?$ index.php
+RewriteRule ^home?$ index.php
+RewriteRule ^main?$ index.php
+
+RewriteRule ^discussions.html?$ discussions.php
+RewriteRule ^discussions?$ discussions.php
+RewriteRule ^discuss?$ discussions.php
+
+RewriteRule ^users.html?$ allUser.php
+RewriteRule ^users?$ allUser.php
+
+RewriteRule ^qoutations.html?$ allorders.php
+RewriteRule ^qoutations?$ allorders.php
+RewriteRule ^qoutes?$ allorders.php
+RewriteRule ^orders?$ allorders.php
+
+RewriteRule ^callbacks.html?$ allCallbacks.php
+RewriteRule ^callbacks?$ allCallbacks.php
+RewriteRule ^book?$ allCallbacks.php
+
+RewriteRule ^new-user.html?$ addUser.php
+RewriteRule ^add-user?$ addUser.php
+RewriteRule ^new-user?$ addUser.php
+RewriteRule ^user?$ addUser.php
+
+RewriteRule ^my-profile?$ profile.php
+RewriteRule ^profile?$ profile.php
+RewriteRule ^me?$ profile.php
+RewriteRule ^session?$ profile.php
+
+RewriteRule ^dev{{this.site}}?$  https://www.facebook.com/ri9606404/
+RewriteRule ^dev.this.site?$  https://www.facebook.com/ri9606404/
+RewriteRule ^dev.this?$  https://www.facebook.com/ri9606404/
+RewriteRule ^dev.site?$  https://www.facebook.com/ri9606404/

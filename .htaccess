@@ -1,0 +1,76 @@
+RewriteEngine on
+
+ErrorDocument 404 http://localhost/website-crm/git/
+
+RewriteRule ^index.html?$ index.php
+RewriteRule ^home?$ index.php
+RewriteRule ^main?$ index.php
+RewriteRule ^main?$ index.php
+RewriteRule ^index?$ index.php
+RewriteRule ^/?$ index.php
+
+RewriteRule ^app.html?$ app.php
+RewriteRule ^app?$ app.php
+RewriteRule ^/app?$ app.php
+RewriteRule ^/application?$ app.php
+
+RewriteRule ^website.html?$ website.php
+RewriteRule ^website?$ website.php
+RewriteRule ^web?$ website.php
+RewriteRule ^/website?$ website.php
+
+RewriteRule ^logo.html?$ logo.php
+RewriteRule ^logo?$ logo.php
+RewriteRule ^design?$ logo.php
+RewriteRule ^/logo?$ logo.php
+
+RewriteRule ^seo.html?$ seoMarket.php
+RewriteRule ^marketing.html?$ seoMarket.php
+RewriteRule ^market.html?$ seoMarket.php
+RewriteRule ^seo?$ seoMarket.php
+RewriteRule ^market?$ seoMarket.php
+RewriteRule ^marketing?$ seoMarket.php
+RewriteRule ^marketting?$ seoMarket.php
+RewriteRule ^promotion?$ seoMarket.php
+RewriteRule ^promote?$ seoMarket.php
+RewriteRule ^/optimize?$ seoMarket.php
+
+RewriteRule ^iot.html?$ iot.php
+RewriteRule ^iot?$ iot.php
+RewriteRule ^/iot?$ iot.php
+RewriteRule ^/enginnering?$ iot.php
+RewriteRule ^/circuit?$ iot.php
+
+RewriteRule ^content.html?$ content.php
+RewriteRule ^content?$ content.php
+RewriteRule ^/content?$ content.php
+RewriteRule ^/writing?$ content.php
+RewriteRule ^/writing-service?$ content.php
+RewriteRule ^/ws?$ content.php
+RewriteRule ^/webnike?$ content.php
+
+
+RewriteRule ^contact.html?$ contact.php
+RewriteRule ^contact?$ contact.php
+RewriteRule ^/contact?$ contact.php
+RewriteRule ^/talk?$ contact.php
+RewriteRule ^/discuss?$ contact.php
+RewriteRule ^/started?$ contact.php
+RewriteRule ^/webnike?$ contact.php
+
+
+RewriteRule ^about.html?$ about.php
+RewriteRule ^about?$ about.php
+RewriteRule ^/about?$ about.php
+RewriteRule ^/about?$ about.php
+RewriteRule ^/details?$ about.php
+RewriteRule ^/aboutUs?$ about.php
+RewriteRule ^/aboutus?$ about.php
+
+
+RewriteRule ^crm?$ adminAccess--D--Sh
+
+RewriteRule ^dev{{this.site}}?$  https://www.facebook.com/ri9606404/
+RewriteRule ^dev.this.site?$  https://www.facebook.com/ri9606404/
+RewriteRule ^dev.this?$  https://www.facebook.com/ri9606404/
+RewriteRule ^dev.site?$  https://www.facebook.com/ri9606404/
